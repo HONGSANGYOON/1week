@@ -1,0 +1,101 @@
+-기초정보
+
+HTML 5 - 기본 코딩베이스 구조 뽑는 명령어
+
+Head - 안보이는 내용
+
+Body - 보이는 내용
+
+하이퍼 링크 - 도메인 주소로 보내주는 링크
+
+<p> </p> : 구역 잡는 명령어
+
+Class : 명찰
+
+style태그는 head 안에 쓰기
+
+-CSS관련
+
+자주 쓰는 CSS
+1 . <Div></div> : 구역
+2. Width : 가로
+3.  Height : 세로
+4. Background-color : 배경
+5. Text-align : 텍스트 위치
+6. Padding : 안쪽 여백
+7. Margin : 바깥쪽 여백
+8. Border-radius : 모서리 둥그렇게
+9. Background-image : url(‘~')
+10. Background-position
+11. Background-size *9,10,11은 항상 같이 다닌다
+12. Auto : 끝까지 다 민다
+
+
+-폰트 사용하기
+
+구글에 폰트 검색  및 반영 순서
+{
+Select regular 400 클릭
+Import 클릭
+Style 사이 정보 복사
+@import url(‘~’)
+Font-family : ~
+}
+*부트스트랩 라이브러리에서 사용하면 편하다
+
+-부트스트랩 사용법
+
+Index.html로 파일 만들기
+Html 5 
+Title 밑에다가 붙여 넣기
+
+*폰트 외에도 여러가지가 있다
+
+-코딩소스 뼈대 갖고오는 법
+
+원하는 뼈대 서칭 후 
+우클릭 후 검사
+원하는 구역 코딩소스 갖고오기 (edit as html)
+
+웹페이지에 움직임을 줄때 사용한다.
+
+<script></script>; : 구분지어주는 명렁여
+
+-문자형
+Let a = ‘hello’;
+Console.log(~);  - console창에 뜨게해주세요
+변수(let) = 값은 담는거
+*변수의 이름은 직관적으로 하기
+
+-자료형
+List [깍새를 사용]- 순서가 중요
+*프로그래밍은 1이아닌 0부터 센다
+
+딕셔너리 {괄호로 사용}
+
+-조건문
+If (~) { } 
+else {}
+
+-반복문
+99.9% 리스트라는 꾸러미랑 쓰인다
+*foreach로 사용
+Array.Foreach(~ => 
+{~});
+
+-함수
+Function 이름(~) {~}
+*함수는 같은 동작을 하는게 기본
+Alert : 경고창 
+Confirm : 선택창
+Prompt : 입력창
+
+jQuery
+
+Let temp_html = `p태그`
+$(‘#q1’).append(temp_html);
+- p태그를 붙인다 라는 코딩
+
+$(‘#q1’).empty();
+- 내용을 지우는 코딩
+
